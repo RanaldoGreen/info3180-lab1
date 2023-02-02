@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <title>My Website - About</title>
+    <meta charset="UTF-8">
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"/>
 </head>
-<body>
- <h1>Ranaldo Green</h1>
- <p>I'm currently a second year computing student at the U.W.I Mona. 
-    In my free time I like watching movies, playing games or simply browse the web for things that I find fascinating. 
-    My friends are my happy place; I put alot of trust in them and they in me. 
-    I would go to the ends of the earth for my friends, I believe in living a kind and honest life</p>
-</body>
+    <body>
+        <div class="background">
+            <div class="leaf">
+                <img src="{{ url_for('static', filename='op.png') }}" alt="img"/>
+            </div>
+            <div class="border">
+                <h1>Ranaldo Green</h1>
+                <p>I'm currently a second year computing student at the U.W.I Mona. 
+                    In my free time I like watching movies, playing games or simply browse the web for things that I find fascinating. 
+                    My friends are my happy place; I put alot of trust in them and they in me. 
+                    I would go to the ends of the earth for my friends, I believe in living a kind and honest life.
+                </p>
+                <p>Watching live action or animated movies and series is one of my favorite hobbies. I specifically like to watch One Piece
+                    and Black Clover. Both of them have amazing plots and storylines. Many people pass them ove on first glance
+                    because they were not given the same level of quality that other sub par animes have gotten. But recenly people have 
+                    come to appreciate One Piece very much, including myself and I'm proud of that.
+                </p>
+            </div>                
+        </div>
+    </body>
+    <footer></footer>
 </html>
